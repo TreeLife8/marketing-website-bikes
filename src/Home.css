@@ -1,0 +1,89 @@
+header {
+  background: url(/src/photos/josh-nuttall-XVTWFHcNIko-unsplash.jpg) no-repeat
+    center center fixed;
+  background-size: cover;
+  height: 600px;
+}
+h1 {
+  font-size: 90px;
+  padding-top: 220px;
+  text-align: end;
+  color: rgba(255, 255, 255, 0.89);
+  opacity: 0.9;
+  padding-right: 150px;
+  font-weight: 200;
+}
+span {
+  font-weight: 500;
+}
+h4,
+h5 {
+  color: #a7a8a7;
+  font-weight: 400;
+  font-size: 20px;
+  padding-right: 150px;
+}
+h4 {
+  text-align: end;
+}
+.explore {
+  color: #d8d8d8;
+  font-size: 16px;
+  border-radius: 25px;
+  padding: 10px 45px;
+  right: 0;
+  margin: 40px 150px 0 0;
+  transition: all 200ms ease-in-out;
+  background: #727272;
+  display: block;
+  float: right;
+}
+.btn:hover {
+  color: white;
+  opacity: 0.5;
+}
+section {
+  background: url(/src/photos/bike-landscape.jpg) no-repeat center center;
+  background-size: cover;
+  height: 900px;
+}
+section h2 {
+  font-size: 90px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.89);
+  opacity: 0.9;
+  padding: 30px 0 0 100px;
+  text-align: start;
+}
+section h4 {
+  text-align: start;
+  padding: 5px 0 0 100px;
+}
+section .explore {
+  float: none;
+  margin: 10px auto;
+}
+main {
+  background: url(/src/photos/josh-nuttall-zkVi57UYHIQ-unsplash.jpg) no-repeat
+    center center;
+  background-size: cover;
+  height: 900px;
+}
+main h2 {
+  font-size: 70px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.89);
+  opacity: 0.9;
+  padding: 470px 0 0 60px;
+  text-align: start;
+}
+.mid {
+  background: #e5e5e1;
+  height: 500px;
+}
+.mid h2 {
+  font-weight: 300;
+  font-size: 90px;
+  text-align: center;
+  margin: auto;
+}
