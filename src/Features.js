@@ -1,47 +1,59 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import Aos from "aos";
 import "./Features.css";
 
 export default function Features() {
   let features = [
     {
-      title: "big bananas",
-      text: "fantastic bananas that make you smile",
+      title: "assistance",
+      description:
+        "Enjoy your ride with ease as our automatic assistance provides you comfort through difficulty.",
     },
     {
-      title: "pealing bananas",
-      text: "laughing with peals",
+      title: "removable battery",
+      description:
+        "Take only the battery inside for a charge. Bringing ease with every part of your journey",
     },
     {
-      title: "shinning with bananas",
-      text: "silly sun soaked bananas",
+      title: "kinetic recharge",
+      description:
+        "Save on power as your journey recharges your battery on the go.",
     },
   ];
-
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
-    <div className="Features container">
-      <div className="row">
-        <div className="col-sm-4 text-center">
-          {}
-          <div class="card">
-            {/* <img
-              src={features[0].img}
-              class="card-img-top img-fluid"
-              alt="pealed bananas with pink background"
-            /> */}
-            <div class="card-body">
-              <h3 class="card-title">{features[0].title}</h3>
-              <p class="card-text">{features[0].text}</p>
-              <a href="/" class="btn btn-secondary">
-                slip into sales
-              </a>
-            </div>
-          </div>
+    <div className="Features container-fluid">
+      <div className="hero">
+        <h1 data-aos="fade-in">take control</h1>
+        <h2 data-aos="fade-in" data-aos-duration="6000">
+          with the cloud<span>nine</span>
+        </h2>
+        <h3>and let us handle the rest</h3>
+        <div>
+          <Link to="/Contact">
+            <button className="contact btn-design btn btn-control">
+              contact us
+            </button>
+          </Link>
+        </div>
+      </div>
+      <div className="mid">
+        <h2>glide with ease</h2>
+        <hr data-aos="fade-right" />
+        <div className="row tiles">
+          {features.map(function (feature, index) {
+            return (
+              <div key={index} className="tile col-sm-4">
+                <h5>{feature.title}</h5>
+                <p>{feature.description}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
   );
-  // } else {
-  //   meow();
-  //   return null;
-  // }
 }

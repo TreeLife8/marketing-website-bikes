@@ -1,8 +1,7 @@
-import "./App.css";
 import React, { useEffect } from "react";
-import "./Landing.css";
-import Aos from "aos";
 import { Link } from "react-router-dom";
+import Aos from "aos";
+import "./Landing.css";
 
 export default function Landing() {
   useEffect(() => {
@@ -32,7 +31,7 @@ export default function Landing() {
           ></input>
         </form>
         <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-          <Link to="/Contact.js">
+          <Link to="/Contact">
             <button className="contact btn-design btn btn-control">
               contact us
             </button>

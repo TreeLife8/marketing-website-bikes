@@ -1,6 +1,6 @@
 .services {
   background: #e5e5e1;
-  height: 850px;
+  height: 1000px;
 }
 .services h4 {
   padding-left: 50px;
@@ -19,6 +19,9 @@
 }
 .service-cards {
   justify-content: space-around;
+}
+.card {
+  margin-bottom: 120px;
 }
 .col-sm {
   padding: 0;
@@ -40,7 +43,7 @@
 .services h2 {
   bottom: 10px;
   line-height: 1;
-  right: 5px;
+  right: 15px;
   text-align: end;
   font-weight: 500;
   color: #fff;

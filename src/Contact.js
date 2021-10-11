@@ -8,7 +8,7 @@ export default function Contact() {
     Aos.init({ duration: 2000 });
   });
   return (
-    <div className="Contact">
+    <div className="Contact container-fluid">
       <h1>CONTACT</h1>
       <p>
         Need to tell us something?
