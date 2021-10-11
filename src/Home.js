@@ -6,6 +6,8 @@ import PreorderLink from "./PreorderLink";
 import ExploreLink from "./ExploreLink";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Services from "./Services";
+import DiscoverApp from "./DiscoverApp";
 
 export default function Home() {
   useEffect(() => {
@@ -19,15 +21,13 @@ export default function Home() {
         </h1>
         <h4>glide through the skies</h4>
         <Link to="/Features.js">
-          <button className="explore btn btn-control">explore</button>
+          <button className="explore btn-design btn btn-control">
+            explore
+          </button>
         </Link>
         <PreorderLink />
       </header>
-      <div className="mid d-flex">
-        <h2 data-aos="fade-down" data-aos-duration="3000">
-          always a great day for a ride
-        </h2>
-      </div>
+      <DiscoverApp />
       <section className="container-fluid">
         <div data-aos="fade-up">
           <h2>
@@ -37,7 +37,9 @@ export default function Home() {
         </div>
         <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
           <Link className="text-center ms-5" to="/Features.js">
-            <button className="explore btn btn-control">explore</button>
+            <button className="explore btn-design btn btn-control">
+              explore
+            </button>
           </Link>
         </div>
         <ExploreLink />
@@ -45,10 +47,11 @@ export default function Home() {
       <main>
         <div data-aos="fade-up">
           <h2>
-            ride into the <div> future with style</div>
+            ride into the <br /> future with<span> style</span>
           </h2>
         </div>
       </main>
+      <Services />
     </div>
   );
 }

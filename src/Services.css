@@ -1,0 +1,73 @@
+.services {
+  background: #e5e5e1;
+  height: 850px;
+}
+.services h4 {
+  padding-left: 50px;
+  padding-top: 70px;
+  text-align: start;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.services h3 {
+  font-weight: 500;
+  padding-left: 50px;
+  font-size: 65px;
+  line-height: 1;
+  padding-bottom: 25px;
+  color: #0d0e10;
+}
+.service-cards {
+  justify-content: space-around;
+}
+.col-sm {
+  padding: 0;
+}
+.services button {
+  margin-bottom: 50px;
+  background: #0d0e10;
+  opacity: 0.8;
+}
+.services a:hover {
+  background: #e5e5e1;
+}
+.services i,
+.services h2 {
+  left: 10px;
+  position: absolute;
+  bottom: 15px;
+}
+.services h2 {
+  bottom: 10px;
+  line-height: 1;
+  right: 5px;
+  text-align: end;
+  font-weight: 500;
+  color: #fff;
+  font-size: 30px;
+}
+img {
+  transition: all 200ms ease-in-out;
+}
+.services img:hover {
+  box-shadow: 0 0 15px rgb(125, 125, 125);
+}
+.img-overlay {
+  opacity: 0.9;
+  position: relative;
+}
+.img-overlay:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+  right: 0;
+  background: #0d0e10;
+  transition: all 0.3s linear;
+}
+.img-overlay:hover:before {
+  background: none;
+}

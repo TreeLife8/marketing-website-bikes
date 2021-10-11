@@ -1,24 +1,24 @@
 import "./App.css";
-import React from "react";
-import Features from "./Features";
-import ShapeDivider from "./ShapeDivider";
+import React, { useEffect } from "react";
+import "./Landing.css";
+import Aos from "aos";
+import BikeHandles from "./photos/bikeHandles.png";
 
 export default function Landing() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
-    <div className="Landing">
-      {" "}
-      <header>
-        <h1 className="Title">
-          15% off <div>ALL bananas!</div>
-        </h1>
-      </header>
-      <ShapeDivider />
-      <div className="Features">
-        <h2>
-          go bananas for <strong>BANANAS</strong> 🍌
-        </h2>
+    <div className="container-fluid Landing">
+      <div className="hero  d-flex">
+        <img
+          data-aos="fade-left"
+          className="img-fluid"
+          src={BikeHandles}
+          alt="bike handles"
+        />
+        <h1>15% off your first purchase</h1>
       </div>
-      <Features />
     </div>
   );
 }

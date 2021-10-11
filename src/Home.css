@@ -4,7 +4,7 @@ header {
   background-size: cover;
   height: 600px;
 }
-h1 {
+.Home h1 {
   font-size: 90px;
   padding-top: 220px;
   text-align: end;
@@ -26,15 +26,17 @@ h5 {
 h4 {
   text-align: end;
 }
-.explore {
+.btn-design {
   color: #d8d8d8;
   font-size: 16px;
   border-radius: 25px;
-  padding: 10px 45px;
-  right: 0;
-  margin: 40px 150px 0 0;
   transition: all 200ms ease-in-out;
   background: #727272;
+  padding: 10px 45px;
+}
+.explore {
+  right: 0;
+  margin: 40px 150px 0 0;
   display: block;
   float: right;
 }
@@ -74,16 +76,6 @@ main h2 {
   font-weight: 200;
   color: rgba(255, 255, 255, 0.89);
   opacity: 0.9;
-  padding: 470px 0 0 60px;
+  padding: 450px 0 0 40px;
   text-align: start;
-}
-.mid {
-  background: #e5e5e1;
-  height: 500px;
-}
-.mid h2 {
-  font-weight: 300;
-  font-size: 90px;
-  text-align: center;
-  margin: auto;
 }

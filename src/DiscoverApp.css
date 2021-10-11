@@ -1,0 +1,38 @@
+.mid {
+  background: #e5e5e1;
+  height: 900px;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mid h2 {
+  font-weight: 300;
+  font-size: 90px;
+}
+.mid h6 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.mid a {
+  background: #e5e5e1;
+}
+.mid a:hover {
+  background: #e5e5e1;
+}
+.app {
+  margin: 0 auto;
+}
+.mid img {
+  padding-top: 50px;
+}
+.mid .app-photos {
+  display: flex;
+  justify-content: space-around;
+}
+.mid .phone {
+  padding: 50px;
+}
