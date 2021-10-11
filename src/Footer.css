@@ -16,3 +16,16 @@
 span {
   opacity: 0.7;
 }
+.Footer li {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 300;
+}
+.Footer ul {
+  padding: 50px;
+  color: white;
+}
+.Footer h5 {
+  font-weight: 800;
+  font-size: 30px;
+}

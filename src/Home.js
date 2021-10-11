@@ -49,6 +49,13 @@ export default function Home() {
           <h2>
             ride into the <br /> future with<span> style</span>
           </h2>
+          <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <Link to="/Contact.js">
+              <button className="contact btn-design btn btn-control">
+                contact us
+              </button>
+            </Link>
+          </div>
         </div>
       </main>
       <Services />

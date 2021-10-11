@@ -1,0 +1,27 @@
+.Contact h1 {
+  padding: 160px 20px 0px;
+  font-weight: 700;
+  color: #1d1d1d;
+  font-size: 90px;
+}
+.Contact p {
+  padding-left: 20px;
+  font-size: 30px;
+  line-height: 1.2;
+  opacity: 0.6;
+}
+.Contact form {
+  margin-top: 50px;
+  max-width: 90%;
+}
+.Contact textarea,
+.Contact input {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.Contact .btn-design {
+  border-radius: 4px;
+}
+.Contact img {
+  margin-top: 50px;
+}

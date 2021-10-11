@@ -40,7 +40,6 @@ export default function Services() {
       </Link>
       <div className="row service-cards">
         {serviceCards.map(function (bike, index) {
-          console.log(bike.src);
           return (
             <div
               key={index}

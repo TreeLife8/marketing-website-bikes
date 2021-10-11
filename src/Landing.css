@@ -1,14 +1,36 @@
 .hero {
-  /* background: #1d1d1d; */
-  background: #e5e5e1;
-  padding-top: 90px;
+  background: url(/src/photos/josh-nuttall-5UQoVk8_d-4-unsplash.jpg) no-repeat
+    center center fixed;
+  background-size: cover;
+  height: 800px;
 }
-.hero img {
-  padding-left: 15px;
+.Landing h1 {
+  font-size: 85px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  padding: 160px 0 0;
 }
-.hero h1 {
-  font-size: 80px;
+.Landing form {
+  max-width: 30%;
+  margin: 35px auto;
+}
+.Landing label {
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+  display: block;
+  opacity: 0.7;
+}
+.Landing input {
+  margin-bottom: 7px;
+}
+.Landing .light {
   font-weight: 300;
-  text-align: end;
-  padding-right: 15px;
+}
+.Landing button {
+  margin: auto;
+  display: block;
+  margin-top: 80px;
+  font-size: 22px;
 }
