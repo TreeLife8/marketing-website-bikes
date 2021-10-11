@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-
 import "./ExploreLink.css";
 import { Link } from "react-router-dom";
 import Aos from "aos";
@@ -12,7 +11,7 @@ export default function ExploreLink() {
   return (
     <div className="ExploreLink">
       {" "}
-      <Link className="explore-link mb-1" to="/Features.js">
+      <Link className="explore-link mb-1" to="/Features">
         <h5>preorder l9 now for $199</h5>
         <i data-aos="fade-right" class="fas fa-chevron-right"></i>
       </Link>

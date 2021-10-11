@@ -11,7 +11,7 @@ export default function PreorderLink() {
   return (
     <div className="PreorderLink">
       {" "}
-      <Link className="preorder-link mb-1" to="/Features.js">
+      <Link className="preorder-link mb-1" to="/Features">
         <h5>preorder c9 now for $150</h5>
         <i data-aos="fade-right" class="fas fa-chevron-right"></i>
       </Link>
