@@ -38,17 +38,19 @@ export default function DiscoverApp() {
           discover the app
         </button>
       </Link>
-      <div className="app-photos">
+      <div className="app-photos row">
         {phoneImages.map(function (phone, index) {
           return (
-            <img
-              key={index}
-              className="phone"
-              data-aos="zoom-in"
-              data-aos-duration={phone.duration}
-              src={phone.src}
-              alt={phone.alt}
-            />
+            <div className="col-sm">
+              <img
+                key={index}
+                className="phone"
+                data-aos="zoom-in"
+                data-aos-duration={phone.duration}
+                src={phone.src}
+                alt={phone.alt}
+              />
+            </div>
           );
         })}
       </div>
