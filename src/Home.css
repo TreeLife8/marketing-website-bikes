@@ -47,7 +47,7 @@ h4 {
 section {
   background: url(/src/photos/bike-landscape.jpg) no-repeat center center;
   background-size: cover;
-  height: 900px;
+  /* height: 900px; */
 }
 section h2 {
   font-size: 90px;
@@ -81,4 +81,49 @@ main h2 {
 }
 a .contact {
   margin: 40px;
+}
+@media (max-width: 576px) {
+  .Home h1 {
+    font-size: 45px;
+    padding-top: 300px;
+    text-align: end;
+    padding-right: 10px;
+  }
+  .btn-design {
+    font-size: 12px;
+  }
+  section h2 {
+    font-size: 45px;
+  }
+  h4,
+  h5 {
+    padding-right: 10px;
+  }
+  h4 {
+    text-align: end;
+  }
+  .explore {
+    right: 0;
+    margin: 40px 10px 0 0;
+  }
+  section h2 {
+    font-size: 45px;
+    padding: 10px;
+    text-align: center;
+  }
+  section h4 {
+    text-align: start;
+    padding: 10px;
+  }
+  section .explore {
+    margin: 10px auto 130px;
+  }
+  main h2 {
+    font-size: 45px;
+    padding: 20px 10px 0 40px;
+    text-align: end;
+  }
+  main {
+    height: 650px;
+  }
 }

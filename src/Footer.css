@@ -29,3 +29,12 @@ span {
   font-weight: 800;
   font-size: 30px;
 }
+@media (max-width: 576px) {
+  .Footer ul {
+    padding: 10px;
+    margin-left: 20px;
+  }
+  .Footer .nav-menu {
+    padding-top: 30px;
+  }
+}

@@ -1,6 +1,5 @@
 .mid {
   background: #e5e5e1;
-  height: 900px;
   text-align: center;
   flex-direction: column;
   margin: auto;
@@ -10,6 +9,7 @@
 }
 .mid h2 {
   font-weight: 300;
+  padding-top: 60px;
   font-size: 90px;
 }
 .mid h6 {
@@ -35,4 +35,24 @@
 }
 .mid .phone {
   padding: 50px;
+}
+@media (max-width: 576px) {
+  .mid button {
+    margin-bottom: 30px;
+  }
+  .mid h2 {
+    font-size: 30px;
+  }
+  .mid h6 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .mid .app-photos {
+    display: block;
+    padding-bottom: 30px;
+  }
+  .mid img,
+  .mid .phone {
+    padding: 10px;
+  }
 }

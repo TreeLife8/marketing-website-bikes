@@ -21,3 +21,15 @@ a:hover {
   background: #0d0e10;
   opacity: 0.9;
 }
+@media (max-width: 576px) {
+  .explore-link {
+    position: absolute;
+    display: flex;
+    top: 2182px;
+    padding: 25px;
+    border-top: 1px solid #d8d8d873;
+    border-bottom: 1px solid #d8d8d873;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
