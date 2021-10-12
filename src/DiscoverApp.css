@@ -46,6 +46,7 @@
   .mid h6 {
     font-size: 20px;
     margin-bottom: 20px;
+    padding: 10px;
   }
   .mid .app-photos {
     display: block;

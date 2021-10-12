@@ -1,7 +1,7 @@
 .explore-link {
   position: absolute;
   display: flex;
-  top: 2317px;
+  top: 2144px;
   padding: 25px;
   border-top: 1px solid #d8d8d873;
   border-bottom: 1px solid #d8d8d873;
@@ -23,13 +23,6 @@ a:hover {
 }
 @media (max-width: 576px) {
   .explore-link {
-    position: absolute;
-    display: flex;
     top: 2182px;
-    padding: 25px;
-    border-top: 1px solid #d8d8d873;
-    border-bottom: 1px solid #d8d8d873;
-    width: 100%;
-    justify-content: space-between;
   }
 }

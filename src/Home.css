@@ -47,7 +47,7 @@ h4 {
 section {
   background: url(/src/photos/bike-landscape.jpg) no-repeat center center;
   background-size: cover;
-  /* height: 900px; */
+  height: 900px;
 }
 section h2 {
   font-size: 90px;
@@ -110,6 +110,9 @@ a .contact {
     font-size: 45px;
     padding: 10px;
     text-align: center;
+  }
+  section {
+    height: 337px;
   }
   section h4 {
     text-align: start;
