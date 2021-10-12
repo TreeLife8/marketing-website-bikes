@@ -23,5 +23,23 @@
   border-radius: 4px;
 }
 .Contact img {
-  margin-top: 50px;
+  right: -100px;
+  position: absolute;
+  text-align: end;
+  transform: rotate(270deg);
+}
+/* 
+html:not(.no-js) [data-aos^="fade"][data-aos^="fade"].aos-animate {
+  transform: rotate(270deg);
+} */
+.bike-image {
+  right: -115px;
+  bottom: 0px;
+  transform: rotate(270deg);
+  position: absolute;
+  top: 300px;
+  text-align: end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
