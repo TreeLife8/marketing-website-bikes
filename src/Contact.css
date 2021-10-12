@@ -45,13 +45,13 @@
     display: none;
   }
   .Contact h1 {
-    padding: 120px 20px 0px;
+    padding: 50px 20px 0px;
     font-size: 40px;
   }
   .Contact p {
-    font-size: 18px;
+    font-size: 15px;
   }
   .Contact form {
-    max-width: 100%;
+    max-width: 70%;
   }
 }
