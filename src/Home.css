@@ -85,7 +85,7 @@ a .contact {
 @media (max-width: 576px) {
   .Home h1 {
     font-size: 45px;
-    padding-top: 300px;
+    padding-top: 100px;
     text-align: end;
     padding-right: 10px;
   }

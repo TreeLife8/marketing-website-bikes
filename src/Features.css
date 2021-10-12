@@ -60,3 +60,20 @@
 .Features .tile {
   padding: 5px;
 }
+@media (max-width: 570px) {
+  .Features .hero {
+    margin-top: 50px;
+    height: 450px;
+  }
+  .Features h1 {
+    font-size: 45px;
+    margin-top: 120px;
+  }
+  .Features h2 {
+    font-size: 30px;
+  }
+  .Features h3 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
