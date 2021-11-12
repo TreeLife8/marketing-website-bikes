@@ -33,7 +33,7 @@ export default function Home() {
           <h2>
             lightning<span>nine</span>
           </h2>
-          <h4 className="text-start">stricking speed for a lightning fight</h4>
+          <h4 className="text-start">striking speed for a lightning fight</h4>
         </div>
         <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
           <Link className="text-center ms-5" to="/Features">
