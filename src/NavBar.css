@@ -11,3 +11,9 @@ li {
 .container-fluid {
   padding: 0;
 }
+.navbar-brand {
+  font-size: 30px;
+}
+.navbar-brand span {
+  font-weight: 100;
+}

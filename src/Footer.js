@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.png";
+// import logo from "./logo.png";
 import "./Footer.css";
 
 export default function Footer() {
@@ -48,8 +48,8 @@ export default function Footer() {
         })}
       </div>
       <div className="footer-details">
-        <span className="mt-2"> Crafted by</span>{" "}
-        <img src={logo} className="logo" alt="Squiggle Code logo" />
+        <span className="mt-2"> Crafted by Regina Maher</span>
+        {/* <img src={logo} className="logo" alt="Squiggle Code logo" /> */}
       </div>
     </div>
   );

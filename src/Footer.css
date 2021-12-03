@@ -20,6 +20,7 @@ span {
   list-style-type: none;
   font-size: 18px;
   font-weight: 300;
+  opacity: 0.1;
 }
 .Footer ul {
   padding: 50px;
